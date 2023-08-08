@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98678A672A5FFF050073E9A0 /* TagListView_SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98678A662A5FFF050073E9A0 /* TagListView_SampleApp.swift */; };
+		98678A692A5FFF050073E9A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98678A682A5FFF050073E9A0 /* ContentView.swift */; };
+		98678A6B2A5FFF070073E9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98678A6A2A5FFF070073E9A0 /* Assets.xcassets */; };
+		98678A6E2A5FFF070073E9A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98678A6D2A5FFF070073E9A0 /* Preview Assets.xcassets */; };
+		98678A782A5FFF070073E9A0 /* TagListView_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98678A772A5FFF070073E9A0 /* TagListView_SampleTests.swift */; };
+		98678A822A5FFF070073E9A0 /* TagListView_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98678A812A5FFF070073E9A0 /* TagListView_SampleUITests.swift */; };
+		98678A842A5FFF070073E9A0 /* TagListView_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98678A832A5FFF070073E9A0 /* TagListView_SampleUITestsLaunchTests.swift */; };
+		98678A932A5FFFF80073E9A0 /* FlexibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98678A922A5FFFF80073E9A0 /* FlexibleView.swift */; };
+		98678A952A60000E0073E9A0 /* _FlexibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98678A942A60000E0073E9A0 /* _FlexibleView.swift */; };
+		98678A972A6000410073E9A0 /* SizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98678A962A6000410073E9A0 /* SizeReader.swift */; };
+		98C2DFA02A7E7CD600013F31 /* TagKit in Frameworks */ = {isa = PBXBuildFile; productRef = 98C2DF9F2A7E7CD600013F31 /* TagKit */; };
+		98C2DFA22A7E7CE500013F31 /* TagKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2DFA12A7E7CE500013F31 /* TagKitView.swift */; };
+		98C2DFA62A7E97F900013F31 /* TagViewWithAlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2DFA52A7E97F900013F31 /* TagViewWithAlignmentGuide.swift */; };
+		98C2DFA92A7EB19400013F31 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2DFA82A7EB19400013F31 /* TagView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98678A742A5FFF070073E9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98678A5B2A5FFF050073E9A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98678A622A5FFF050073E9A0;
+			remoteInfo = "TagListView-Sample";
+		};
+		98678A7E2A5FFF070073E9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98678A5B2A5FFF050073E9A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98678A622A5FFF050073E9A0;
+			remoteInfo = "TagListView-Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98678A632A5FFF050073E9A0 /* TagListView-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TagListView-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98678A662A5FFF050073E9A0 /* TagListView_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView_SampleApp.swift; sourceTree = "<group>"; };
+		98678A682A5FFF050073E9A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98678A6A2A5FFF070073E9A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98678A6D2A5FFF070073E9A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98678A732A5FFF070073E9A0 /* TagListView-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TagListView-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98678A772A5FFF070073E9A0 /* TagListView_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView_SampleTests.swift; sourceTree = "<group>"; };
+		98678A7D2A5FFF070073E9A0 /* TagListView-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TagListView-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98678A812A5FFF070073E9A0 /* TagListView_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView_SampleUITests.swift; sourceTree = "<group>"; };
+		98678A832A5FFF070073E9A0 /* TagListView_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98678A922A5FFFF80073E9A0 /* FlexibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleView.swift; sourceTree = "<group>"; };
+		98678A942A60000E0073E9A0 /* _FlexibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _FlexibleView.swift; sourceTree = "<group>"; };
+		98678A962A6000410073E9A0 /* SizeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeReader.swift; sourceTree = "<group>"; };
+		98C2DFA12A7E7CE500013F31 /* TagKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagKitView.swift; sourceTree = "<group>"; };
+		98C2DFA52A7E97F900013F31 /* TagViewWithAlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewWithAlignmentGuide.swift; sourceTree = "<group>"; };
+		98C2DFA82A7EB19400013F31 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98678A602A5FFF050073E9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C2DFA02A7E7CD600013F31 /* TagKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98678A702A5FFF070073E9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98678A7A2A5FFF070073E9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98678A5A2A5FFF050073E9A0 = {
+			isa = PBXGroup;
+			children = (
+				98678A652A5FFF050073E9A0 /* TagListView-Sample */,
+				98678A762A5FFF070073E9A0 /* TagListView-SampleTests */,
+				98678A802A5FFF070073E9A0 /* TagListView-SampleUITests */,
+				98678A642A5FFF050073E9A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98678A642A5FFF050073E9A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98678A632A5FFF050073E9A0 /* TagListView-Sample.app */,
+				98678A732A5FFF070073E9A0 /* TagListView-SampleTests.xctest */,
+				98678A7D2A5FFF070073E9A0 /* TagListView-SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98678A652A5FFF050073E9A0 /* TagListView-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				98C2DFA72A7EB18500013F31 /* TagView */,
+				98C2DFA42A7E97DA00013F31 /* TagViewWithAlignmentGuide */,
+				98C2DFA32A7E7CEC00013F31 /* TagKit */,
+				98678A662A5FFF050073E9A0 /* TagListView_SampleApp.swift */,
+				98678A682A5FFF050073E9A0 /* ContentView.swift */,
+				98678A922A5FFFF80073E9A0 /* FlexibleView.swift */,
+				98678A942A60000E0073E9A0 /* _FlexibleView.swift */,
+				98678A962A6000410073E9A0 /* SizeReader.swift */,
+				98678A6A2A5FFF070073E9A0 /* Assets.xcassets */,
+				98678A6C2A5FFF070073E9A0 /* Preview Content */,
+			);
+			path = "TagListView-Sample";
+			sourceTree = "<group>";
+		};
+		98678A6C2A5FFF070073E9A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				98678A6D2A5FFF070073E9A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98678A762A5FFF070073E9A0 /* TagListView-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				98678A772A5FFF070073E9A0 /* TagListView_SampleTests.swift */,
+			);
+			path = "TagListView-SampleTests";
+			sourceTree = "<group>";
+		};
+		98678A802A5FFF070073E9A0 /* TagListView-SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98678A812A5FFF070073E9A0 /* TagListView_SampleUITests.swift */,
+				98678A832A5FFF070073E9A0 /* TagListView_SampleUITestsLaunchTests.swift */,
+			);
+			path = "TagListView-SampleUITests";
+			sourceTree = "<group>";
+		};
+		98C2DFA32A7E7CEC00013F31 /* TagKit */ = {
+			isa = PBXGroup;
+			children = (
+				98C2DFA12A7E7CE500013F31 /* TagKitView.swift */,
+			);
+			path = TagKit;
+			sourceTree = "<group>";
+		};
+		98C2DFA42A7E97DA00013F31 /* TagViewWithAlignmentGuide */ = {
+			isa = PBXGroup;
+			children = (
+				98C2DFA52A7E97F900013F31 /* TagViewWithAlignmentGuide.swift */,
+			);
+			path = TagViewWithAlignmentGuide;
+			sourceTree = "<group>";
+		};
+		98C2DFA72A7EB18500013F31 /* TagView */ = {
+			isa = PBXGroup;
+			children = (
+				98C2DFA82A7EB19400013F31 /* TagView.swift */,
+			);
+			path = TagView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98678A622A5FFF050073E9A0 /* TagListView-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98678A872A5FFF070073E9A0 /* Build configuration list for PBXNativeTarget "TagListView-Sample" */;
+			buildPhases = (
+				98678A5F2A5FFF050073E9A0 /* Sources */,
+				98678A602A5FFF050073E9A0 /* Frameworks */,
+				98678A612A5FFF050073E9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TagListView-Sample";
+			packageProductDependencies = (
+				98C2DF9F2A7E7CD600013F31 /* TagKit */,
+			);
+			productName = "TagListView-Sample";
+			productReference = 98678A632A5FFF050073E9A0 /* TagListView-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98678A722A5FFF070073E9A0 /* TagListView-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98678A8A2A5FFF070073E9A0 /* Build configuration list for PBXNativeTarget "TagListView-SampleTests" */;
+			buildPhases = (
+				98678A6F2A5FFF070073E9A0 /* Sources */,
+				98678A702A5FFF070073E9A0 /* Frameworks */,
+				98678A712A5FFF070073E9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98678A752A5FFF070073E9A0 /* PBXTargetDependency */,
+			);
+			name = "TagListView-SampleTests";
+			productName = "TagListView-SampleTests";
+			productReference = 98678A732A5FFF070073E9A0 /* TagListView-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98678A7C2A5FFF070073E9A0 /* TagListView-SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98678A8D2A5FFF070073E9A0 /* Build configuration list for PBXNativeTarget "TagListView-SampleUITests" */;
+			buildPhases = (
+				98678A792A5FFF070073E9A0 /* Sources */,
+				98678A7A2A5FFF070073E9A0 /* Frameworks */,
+				98678A7B2A5FFF070073E9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98678A7F2A5FFF070073E9A0 /* PBXTargetDependency */,
+			);
+			name = "TagListView-SampleUITests";
+			productName = "TagListView-SampleUITests";
+			productReference = 98678A7D2A5FFF070073E9A0 /* TagListView-SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98678A5B2A5FFF050073E9A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					98678A622A5FFF050073E9A0 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					98678A722A5FFF070073E9A0 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 98678A622A5FFF050073E9A0;
+					};
+					98678A7C2A5FFF070073E9A0 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 98678A622A5FFF050073E9A0;
+					};
+				};
+			};
+			buildConfigurationList = 98678A5E2A5FFF050073E9A0 /* Build configuration list for PBXProject "TagListView-Sample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98678A5A2A5FFF050073E9A0;
+			packageReferences = (
+				98C2DF9E2A7E7CD600013F31 /* XCRemoteSwiftPackageReference "TagKit" */,
+			);
+			productRefGroup = 98678A642A5FFF050073E9A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98678A622A5FFF050073E9A0 /* TagListView-Sample */,
+				98678A722A5FFF070073E9A0 /* TagListView-SampleTests */,
+				98678A7C2A5FFF070073E9A0 /* TagListView-SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98678A612A5FFF050073E9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98678A6E2A5FFF070073E9A0 /* Preview Assets.xcassets in Resources */,
+				98678A6B2A5FFF070073E9A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98678A712A5FFF070073E9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98678A7B2A5FFF070073E9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98678A5F2A5FFF050073E9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C2DFA22A7E7CE500013F31 /* TagKitView.swift in Sources */,
+				98678A692A5FFF050073E9A0 /* ContentView.swift in Sources */,
+				98678A932A5FFFF80073E9A0 /* FlexibleView.swift in Sources */,
+				98678A672A5FFF050073E9A0 /* TagListView_SampleApp.swift in Sources */,
+				98C2DFA62A7E97F900013F31 /* TagViewWithAlignmentGuide.swift in Sources */,
+				98678A952A60000E0073E9A0 /* _FlexibleView.swift in Sources */,
+				98678A972A6000410073E9A0 /* SizeReader.swift in Sources */,
+				98C2DFA92A7EB19400013F31 /* TagView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98678A6F2A5FFF070073E9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98678A782A5FFF070073E9A0 /* TagListView_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98678A792A5FFF070073E9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98678A842A5FFF070073E9A0 /* TagListView_SampleUITestsLaunchTests.swift in Sources */,
+				98678A822A5FFF070073E9A0 /* TagListView_SampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98678A752A5FFF070073E9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98678A622A5FFF050073E9A0 /* TagListView-Sample */;
+			targetProxy = 98678A742A5FFF070073E9A0 /* PBXContainerItemProxy */;
+		};
+		98678A7F2A5FFF070073E9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98678A622A5FFF050073E9A0 /* TagListView-Sample */;
+			targetProxy = 98678A7E2A5FFF070073E9A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98678A852A5FFF070073E9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98678A862A5FFF070073E9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98678A882A5FFF070073E9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TagListView-Sample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.andfactory-sato-ruiji.TagListView-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98678A892A5FFF070073E9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TagListView-Sample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.andfactory-sato-ruiji.TagListView-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98678A8B2A5FFF070073E9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.andfactory-sato-ruiji.TagListView-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagListView-Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TagListView-Sample";
+			};
+			name = Debug;
+		};
+		98678A8C2A5FFF070073E9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.andfactory-sato-ruiji.TagListView-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagListView-Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TagListView-Sample";
+			};
+			name = Release;
+		};
+		98678A8E2A5FFF070073E9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.andfactory-sato-ruiji.TagListView-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TagListView-Sample";
+			};
+			name = Debug;
+		};
+		98678A8F2A5FFF070073E9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.andfactory-sato-ruiji.TagListView-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TagListView-Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98678A5E2A5FFF050073E9A0 /* Build configuration list for PBXProject "TagListView-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98678A852A5FFF070073E9A0 /* Debug */,
+				98678A862A5FFF070073E9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98678A872A5FFF070073E9A0 /* Build configuration list for PBXNativeTarget "TagListView-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98678A882A5FFF070073E9A0 /* Debug */,
+				98678A892A5FFF070073E9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98678A8A2A5FFF070073E9A0 /* Build configuration list for PBXNativeTarget "TagListView-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98678A8B2A5FFF070073E9A0 /* Debug */,
+				98678A8C2A5FFF070073E9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98678A8D2A5FFF070073E9A0 /* Build configuration list for PBXNativeTarget "TagListView-SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98678A8E2A5FFF070073E9A0 /* Debug */,
+				98678A8F2A5FFF070073E9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		98C2DF9E2A7E7CD600013F31 /* XCRemoteSwiftPackageReference "TagKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/TagKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		98C2DF9F2A7E7CD600013F31 /* TagKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98C2DF9E2A7E7CD600013F31 /* XCRemoteSwiftPackageReference "TagKit" */;
+			productName = TagKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 98678A5B2A5FFF050073E9A0 /* Project object */;
+}
