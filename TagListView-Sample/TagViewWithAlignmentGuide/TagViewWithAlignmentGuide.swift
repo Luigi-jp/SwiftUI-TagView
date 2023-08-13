@@ -10,13 +10,13 @@ import SwiftUI
 struct TagViewWithAlignmentGuide: View {
 
     let tags: [Tag] = [
-        .init(title: "長いタグ長いタグ長いタグ長いタグ長いタグ長いタグ"),
-        .init(title: "バトル"),
-        .init(title: "恋愛・ラブコメ"),
-        .init(title: "ファンタジー"),
-        .init(title: "日常"),
-        .init(title: "青春・学園"),
-        .init(title: "オリジナル"),
+        .init(title: "Swift"),
+        .init(title: "SwiftUI"),
+        .init(title: "UIKit"),
+        .init(title: "Xcode"),
+        .init(title: "Apple"),
+        .init(title: "iOS"),
+        .init(title: "iPad"),
     ]
 
     var body: some View {
@@ -24,17 +24,15 @@ struct TagViewWithAlignmentGuide: View {
     }
 
     private func content() -> some View {
-        TagListView(
-            items: tags,
-            horizontalSpacing: 4,
-            verticalSpacing: 4) { item in
-                tagItemView(for: item)
-            }
+        TagListView(items: tags, horizontalSpacing: 4, verticalSpacing: 4) { item in
+            tagItemView(for: item)
+        }
+        .frame(height: 500)
     }
 
     private func tagItemView(for tag: Tag) -> some View {
         Button {
-            print("$$$ Tapped tag id: \(tag.id)")
+            // TODO: Button Action
         } label: {
             Text(tag.title)
                 .foregroundColor(.primary)

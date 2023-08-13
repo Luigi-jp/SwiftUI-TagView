@@ -30,28 +30,41 @@ struct TagListView<Data: Collection, Content: View>: View where Data.Element: Ha
         var lastHeight: CGFloat = .zero
 
         return ZStack(alignment: .topLeading) {
-            ForEach(Array(items), id: \.self) { item in
+            ForEach(Array(items.enumerated()), id: \.offset) { index, item in
                 content(item)
                     .padding(.horizontal, horizontalSpacing)
                     .padding(.vertical, verticalSpacing)
                     .alignmentGuide(.leading) { d in
                         if abs(width - d.width) > geometory.size.width {
-                            // ビューの幅を超えた場合は改行
+                            // 同じ行の1つ前までのタグの横幅と追加対象のタグの横幅の合計がViewの横幅を超えている場合は、widthをリセットして改行
                             width = 0
                             height -= lastHeight
                         }
 
                         lastHeight = d.height
                         let result = width
-                        width -= d.width
+
+                        if index == items.count - 1 {
+                            // Tagが最後の場合はwidthをリセットする
+                            // ForEachが複数回呼ばれるためリセットしないと意図した表示にならない（複数回呼ばれる理由は分かってない。。。）
+                            width = 0
+                        } else {
+                            // タグの幅をwidthに追加する
+                            width -= d.width
+                        }
                         return result
                     }
                     .alignmentGuide(.top) { _ in
-                        return height
+                        let result = height
+
+                        if index == items.count - 1 {
+                            // Tagが最後の場合はheightをリセットする
+                            // ForEachが複数回呼ばれるためリセットしないと意図した表示にならない（複数回呼ばれる理由は分かってない。。。）
+                            height = 0
+                        }
+                        return result
                     }
             }
         }
-
-
     }
 }
